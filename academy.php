@@ -1,11 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<h4>Variable & Constant</h4>
 <?php
-$College Name ='STJIT';
-echo $Name .<br>;
+$CollegeName ='STJIT';
+echo $CollegeName ."<br>";
 
 $RegNo =12;
-echo RegNo .<br>;
+echo $RegNo."<br>";
 
 $BranchName ='CS';
-echo $BranchName .<br>
+echo $BranchName ."<br>";
+
+define('PhoneNo', 9148272819);
+echo PhoneNo."<br>";
+
+define('Department',"CS");
+echo  Department ."<br>";
 
 ?>
+</body>
+</html>
